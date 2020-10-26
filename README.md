@@ -2,8 +2,9 @@
 
 ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0.0-blue)
 
-
-![logo](assets/img/icon/star-css1.png)
+<p align="center">
+  <img src="assets/img/icon/star-css1.png" alt="logo"/>
+</p>
 
 > template admin desenvolvido para organizar os componentes do [framework Star css](https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css)
 
