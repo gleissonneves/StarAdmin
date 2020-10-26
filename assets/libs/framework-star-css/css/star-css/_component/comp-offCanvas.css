@@ -1,0 +1,56 @@
+/*!
+ * Star CSS v1.0.0 - Off-canvas 
+ * Copyright 2020-2021 The Gleisson Neves (Authors)
+ * Licensed under MIT 
+ * http://opensource.org/licenses/MIT
+*/
+.offcanvas-bar {
+    position: absolute;    
+    width: 360px;
+    height:100vh;
+    top:0;
+    overflow-y: auto;
+}
+
+
+/*  
+    POSITION
+*/
+.offcanvas-bar-right{
+    right: 0;
+}
+
+.offcanvas-bar-left{
+    left: 0;
+}
+
+
+/*  
+    COLOR
+*/
+.offcanvas-bar-little {
+    background-color: var(--little);
+}
+
+.offcanvas-bar-dark {
+    background-color: var(--is_dark);
+    color: var(--little);
+}
+
+
+/* 
+    CONTENT
+*/
+.offcanvas-bar .offcanvas-bar-content{
+    height:100vh;    
+    padding: var(--padding-generic);
+}
+
+
+
+
+@media (min-width:720px){
+    .offcanvas-bar {   
+        width: 260px;
+    }
+}

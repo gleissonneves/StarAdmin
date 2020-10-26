@@ -1,0 +1,8 @@
+.header{
+   width: var(--width-full);
+   height: 10px;
+   background-image: linear-gradient(to right top, #05ffdc, #09fad8, #0cf5d5, #0ff0d1, #12ebcd);
+   background-image: -webkit-linear-gradient(to right top, #05ffdc, #09fad8, #0cf5d5, #0ff0d1, #12ebcd);
+   background-image: -moz-linear-gradient(to right top, #05ffdc, #09fad8, #0cf5d5, #0ff0d1, #12ebcd);
+   background-image: -o-linear-gradient(to right top, #05ffdc, #09fad8, #0cf5d5, #0ff0d1, #12ebcd);  
+}

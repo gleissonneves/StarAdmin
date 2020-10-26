@@ -1,0 +1,250 @@
+:root{
+    --is_primary:#58dbc8;
+    --is_link:#4179d3;
+    --is_info:#00cfe8;
+    --is_success:#52d158;
+    --is_warning:#ff9f1a;
+    --is_danger:#ea5455;
+    --is_dark:#1d2d3d;
+    --is_glitter:#a451d8;
+ 
+ 
+    --is_shadow_primary: rgb(88, 219, 200, 0.25);
+    --is_shadow_link: rgba(97, 88, 219, 0.25);
+    --is_shadow_info: rgba(0, 247, 255, 0.25);
+    --is_shadow_success: rgba(85, 255, 34, 0.25);
+    --is_shadow_warning: rgba(255, 252, 64, 0.25);
+    --is_shadow_danger: rgba(255, 58, 58, 0.25);
+    --is_shadow_dark: rgba(11, 6, 32, 0.25);
+    --is_shadow_glitter: rgba(192, 55, 255, 0.25);
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+  outline: 0;
+  font-size:100%;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+article, aside, details, div, dt, figcaption, footer, form,
+header, hgroup, html, main, nav, section, summary {
+  display: block;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+}
+h1{
+  font-size: 2.25rem;
+}
+h2{
+  font-size: 1.875rem;
+}
+h3{
+  font-size: 1.3125rem;
+}
+h4{
+  font-size: 1.125rem;
+}
+h5{
+  font-size: 1rem;
+}
+h6{
+  font-size: 0.875rem;
+}
+
+
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+ img {
+  border-style: none;
+}
+
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+
+}
+
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+ [type="number"]::-webkit-inner-spin-button,
+ [type="number"]::-webkit-outer-spin-button {
+   height: auto;
+ }
+ 
+ /**
+  * 1. Correct the odd appearance in Chrome and Safari.
+  * 2. Correct the outline style in Safari.
+  */
+ [type="search"] {
+   -webkit-appearance: textfield;
+   /* 1 */
+   outline-offset: -2px;
+   /* 2 */
+ }
+
+ /**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+ [hidden] {
+  display: none;
+}
+
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+ [hidden] {
+  display: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+
+
+ul:not(.browser-default) {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul:not(.browser-default) > li {
+  list-style-type: none;
+}
+
+
+a {
+  color: #039be5;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
