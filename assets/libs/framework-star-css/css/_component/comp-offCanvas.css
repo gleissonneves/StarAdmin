@@ -4,9 +4,22 @@
  * Licensed under MIT 
  * http://opensource.org/licenses/MIT
 */
+.offcanvas{
+    width:var(--width-vw);
+    height:var(--height-vh);
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color: rgba(000, 000, 000, .5);
+    z-index: 1000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 .offcanvas-bar {
     position: absolute;    
-    width: 360px;
+    width: 0px;
     height:100vh;
     top:0;
     overflow-y: auto;
@@ -47,10 +60,14 @@
 }
 
 
+.offcanvas-bar.is--active {
+    width: 360px;
+}
 
 
 @media (min-width:720px){
-    .offcanvas-bar {   
+
+    .offcanvas-bar.is--active {
         width: 260px;
     }
 }

@@ -1,4 +1,26 @@
 # Star css
+
+![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0.0-blue)
+
+<p align="center">
+  <img src="img/icon/star-css1.png" alt="logo"/>
+</p>
+
+> Versão organizada com template [StarAdmin](https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css)
+
+## Como rodar o projeto? ##
+
+` 
+    git clone https://github.com/gdk46/componentes-front-end-web.git
+`
+
+ou vá até:
+` 
+    Code e faça o Download Zip
+`
+
+
+
 framework css star
 
 
@@ -62,8 +84,6 @@ Start-css
     <br/>
     |--- _css/_element
     <br/>
-    |--- _css/_generic
-    <br/>
     |--- _css/_object
     <br/>
     |--- _css/_settings
@@ -72,7 +92,7 @@ Start-css
     <br/>
     |--- _css/_utilitie
     <br/>
-    |--- _css/main.css
+    |-imports
 
 
 <h2> Sobre diretórios</h2>
@@ -97,11 +117,7 @@ _settings:_ São as configurações de variáveis;
 _tool:_ mixins e funções usados ​​globalmente.;
 <br/>
 
-_utilitie:_  utilitários e classes auxiliares com capacidade de substituir qualquer coisa anterior, por exemplo. ocultar classe auxiliar ou gambiaras;
-<br/>
-
-_main:_ Arquivo de inicialização dos componetes em faze de teste.
-
+_imports_: importação dos arquivos css
 
 <h2> About directories </h2>
 
@@ -123,7 +139,8 @@ _settings:_ These are the variable settings;
 _tool:_ mixins and functions used globally;
 
 
-_utilitie:_ utilities and auxiliary classes capable of replacing any previous thing, for example. hide auxiliary or gambiaras class.
+_imports_: imports files css
 
-# License/Licença do Projeto
-<a>MIT License</a> © Gleisson Neves
+## License/Licença do Projeto #
+[MIT License](https://github.com/gdk46/componentes-front-end-web/blob/main/framework-star-css/LICENSE) © [Gleisson Neves](https://github.com/gdk46)
+

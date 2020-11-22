@@ -2,10 +2,7 @@
 	position: relative;
 	height:50px;
 	width: var(--width-full);
-	background-color:var(--default-backgrounColorNav);
 	padding:5px var(--padding-generic);
-	box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),
-			inset 0 -1px 0 rgba(0,0,0,.01);
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
