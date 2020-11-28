@@ -3,7 +3,7 @@
 ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Version-1.0.0-blue)
 
 <p align="center">
-  <img src="assets/img/icon/star-css1.png" alt="logo"/>
+  <img src="https://raw.githubusercontent.com/gdk46/privado/master/imagens/starCSS/star-css1.png?token=AMZ23B5EHJ5UMWBPBODAHOS7YJ3Z4" alt="logo"/>
 </p>
 
 > template admin desenvolvido para organizar os componentes do [framework Star css](https://github.com/gdk46/componentes-front-end-web/tree/main/framework-star-css)
