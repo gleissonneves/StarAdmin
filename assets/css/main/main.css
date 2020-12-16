@@ -1,13 +1,33 @@
 body{
     background-color:#fff;
 }
+p{
+    margin: 0 0 1.2rem;
+}
 
 
 /* GENERIC */
 .primary-text{
     color: #75d3dd;
 }
+.secundary-text{
+    color: #505050;
+}
 
+
+.ul-list-ilblock
+    li{
+        display: inline-block;
+    }
+
+.pointer{
+    cursor: pointer;
+}
+
+.icon-svg{
+    width: 28px;
+    height: 28px;
+}
 
 /* OO */
 #Star-logo{
