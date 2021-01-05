@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start CSS - shadow</title>
+    <title>Start doc - switch</title>
 
     <!-- LIBS CSS -->
     <link rel="stylesheet" href="../assets/libs/StarCSS/dist/css/imports.css">
@@ -99,11 +99,12 @@
         <section class=" p-l-50 p-r-50 column flex-c-m">
             <div class="sm10 md8 column center">
                 <h1 class="primary-text m-b-10">
-                    Shadow
+                    Switch
                 </h1>        
 
                 <h3 class="secundary-text m-b-50">
-                    Defina a profundidade de um componente causando um efeito hierarquico em seu layout. 
+                    Hora de ativar o dark mode da sua aplicação com o Switch. <br>
+                    Os Switch são caixas de seleção especiais usadas para estados binários, como ligado / desligado
                 </h3>
 
                 <h2 class="secundary-text m-b-10">
@@ -115,12 +116,29 @@
 
 
                 <div class="s10 wrap m-b-50">
-                    <div class="sm10 md8 row">
-                        <div style="width:100px; height:100px; margin:20px; background-color: #58dbc8;" class="shadow-1"></div>
-                        <div style="width:100px; height:100px; margin:20px; background-color: #58dbc8;" class="shadow-2"></div>
-                        <div style="width:100px; height:100px; margin:20px; background-color: #58dbc8;" class="shadow-3"></div>
-                        <div style="width:100px; height:100px; margin:20px; background-color: #58dbc8;" class="shadow-4"></div>
-                        <div style="width:100px; height:100px; margin:20px; background-color: #58dbc8;" class="shadow-5"></div>
+                    <div class="sm10 md8">
+                        <div class="grup-control">
+                            <input type="checkbox" id="check-primary" class="checkbox-switch">
+                            <label for="check-primary" class="switch switch-primary"></label>
+                
+                            <input type="checkbox" id="check-link" class="checkbox-switch">
+                            <label for="check-link" class="switch switch-link"></label>
+                
+                            <input type="checkbox" id="check-info" class="checkbox-switch">
+                            <label for="check-info" class="switch switch-info"></label>
+                
+                            <input type="checkbox" id="check-success" class="checkbox-switch">
+                            <label for="check-success" class="switch switch-success"></label>
+                
+                            <input type="checkbox" id="check-warning" class="checkbox-switch">
+                            <label for="check-warning" class="switch switch-warning"></label>
+                
+                            <input type="checkbox" id="check-danger" class="checkbox-switch">
+                            <label for="check-danger" class="switch switch-danger"></label>
+                
+                            <input type="checkbox" id="check-dark" class="checkbox-switch">
+                            <label for="check-dark" class="switch switch-dark"></label>
+                        </div>
                     </div>   
                 </div>
 

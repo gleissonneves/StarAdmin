@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start CSS - button</title>
+    <title>Start doc - breadcrumb</title>
 
     <!-- LIBS CSS -->
     <link rel="stylesheet" href="../assets/libs/StarCSS/dist/css/imports.css">
@@ -99,11 +99,11 @@
         <section class=" p-l-50 p-r-50 column flex-c-m">
             <div class="sm10 md8 column center">
                 <h1 class="primary-text m-b-10">
-                    Button
+                    Breadcrumb
                 </h1>        
 
                 <h3 class="secundary-text m-b-50">
-                    Use os estilos de botão personalizados do StarCSS para agilizar a modelagem da interface.
+                    Indica a localização da página atual dentro de uma hierarquia de navegação que adiciona separadores automaticamente via CSS.
                 </h3>
 
                 <h2 class="secundary-text m-b-10">
@@ -116,16 +116,29 @@
 
                 <div class="s10 wrap m-b-50">
                     <div class="sm10 md8">
-                        <button class="bt bt-primary">Button</button>
-                        <button class="bt bt-link">Button</button>
-                        <button class="bt bt-info">Button</button>
-                        <button class="bt bt-success">Button</button>
-                        <button class="bt bt-warning">Button</button>
-                        <button class="bt bt-danger">Button</button>
-                        <button class="bt bt-dark">Button</button>
-                        <button class="bt bt-glitter">Button</button>
+                        <ul class="breadcrumb">
+                            <li><a href="javascript::">Home</a></li>
+                            <li><a href="javascript::">carrinho</a></li>
+                            <li class="is--active"><a href="javascript::">compras</a></li>                   
+                        </ul>
+                        
+        
+        
+                        <ul class="breadcrumb1">
+                            <li><a href="javascript::">Home</a></li>
+                            <li><a href="javascript::">carrinho</a></li>
+                            <li class="is--active"><a href="javascript::">compras</a></li>                   
+                        </ul>
+        
+        
+                        <ul class="breadcrumb2">
+                            <li><a href="javascript::">Home</a></li>
+                            <li><a href="javascript::">carrinho</a></li>
+                            <li class="is--active"><a href="javascript::">compras</a></li>                   
+                        </ul>
                     </div>   
                 </div>
+
 
                 <h2 class="secundary-text m-b-10">
                     Código
@@ -135,7 +148,6 @@
                         <code><span>&lt;<span>span</span> <span>class</span>=<span>"uk-badge"</span>&gt;</span><span>&lt;/<span>span</span>&gt;</span></code>
                     </pre>
                 </div>
-
             </div>
         </section>
         <!-- END COMONENTES -->
