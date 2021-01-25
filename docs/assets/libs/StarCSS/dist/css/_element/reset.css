@@ -175,8 +175,8 @@ pre {
 pre > code {
   border-radius: 0;
   display: block;
-  padding: 1rem 1.5rem;
-  white-space: pre;
+  padding: 0 1.5rem;
+  white-space: pre-line;
 }
 
 label,
