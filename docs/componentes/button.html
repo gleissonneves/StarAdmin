@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="../assets/libs/StarCSS/dist/css/imports.css">
 
     <!-- LIBS ICON -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 
 
     <!-- MAIN CSS -->
@@ -22,7 +24,7 @@
     <main class="container">
         <!-- NAV -->
         <nav class="navbar navbar--fly ">
-            <div class="navbar_content between">                
+            <div class="navbar_content between">
                 <i class="fas fa-bars" style="font-size: 25px;"></i>
 
                 <a href="javascript::" target="_blank" style="font-size:30px;">
@@ -100,41 +102,225 @@
             <div class="sm10 md8 column center">
                 <h1 class="primary-text m-b-10">
                     Button
-                </h1>        
+                </h1>
 
                 <h3 class="secundary-text m-b-50">
                     Use os estilos de botão personalizados do StarCSS para agilizar a modelagem da interface.
                 </h3>
 
-                <h2 class="secundary-text m-b-10">
-                    Caso de uso                    
-                </h2>
-                <p class="secundary-text m-b-50">
-                    Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.
-                </p>
-
-
+                <!-- Main -->
                 <div class="s10 wrap m-b-50">
+                    <!-- solid -->
                     <div class="sm10 md8">
-                        <button class="bt bt-primary">Button</button>
-                        <button class="bt bt-link">Button</button>
-                        <button class="bt bt-info">Button</button>
-                        <button class="bt bt-success">Button</button>
-                        <button class="bt bt-warning">Button</button>
-                        <button class="bt bt-danger">Button</button>
-                        <button class="bt bt-dark">Button</button>
-                        <button class="bt bt-glitter">Button</button>
-                    </div>   
+                        <button class="btn">exemplo</button>
+                        <button class="btn white-txt primary">Primary</button>
+                        <button class="btn white-txt success">Success</button>
+                        <button class="btn white-txt danger">Danger</button>
+                        <button class="btn white-txt warning">Warning</button>
+                        <button class="btn white-txt info">Info</button>
+                        <button class="btn light">Light</button>
+                        <button class="btn white-txt dark">Dark</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn radius-sm">exemplo</button>
+                        <button class="btn radius-sm white-txt primary">Primary</button>
+                        <button class="btn radius-sm white-txt success">Success</button>
+                        <button class="btn radius-sm white-txt danger">Danger</button>
+                        <button class="btn radius-sm white-txt warning">Warning</button>
+                        <button class="btn radius-sm white-txt info">Info</button>
+                        <button class="btn radius-sm light">Light</button>
+                        <button class="btn radius-sm white-txt dark">Dark</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-pill">exemplo</button>
+                        <button class="btn btn-pill white-txt primary">Primary</button>
+                        <button class="btn btn-pill white-txt success">Success</button>
+                        <button class="btn btn-pill white-txt danger">Danger</button>
+                        <button class="btn btn-pill white-txt warning">Warning</button>
+                        <button class="btn btn-pill white-txt info">Info</button>
+                        <button class="btn btn-pill light">Light</button>
+                        <button class="btn btn-pill white-txt dark">Dark</button>
+                    </div>
+                    <!-- end solid -->
+
+                    <!-- solid Shadow -->
+                    <div class="sm10 md8">
+                        <button class="btn shadow-1">exemplo</button>
+                        <button class="btn shadow-1 white-txt primary">Primary</button>
+                        <button class="btn shadow-1 white-txt success">Success</button>
+                        <button class="btn shadow-1 white-txt danger">Danger</button>
+                        <button class="btn shadow-1 white-txt warning">Warning</button>
+                        <button class="btn shadow-1 white-txt info">Info</button>
+                        <button class="btn shadow-1 light">Light</button>
+                        <button class="btn shadow-1 white-txt dark">Dark</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn shadow-1 radius-sm">exemplo</button>
+                        <button class="btn shadow-1 radius-sm white-txt primary">Primary</button>
+                        <button class="btn shadow-1 radius-sm white-txt success">Success</button>
+                        <button class="btn shadow-1 radius-sm white-txt danger">Danger</button>
+                        <button class="btn shadow-1 radius-sm white-txt warning">Warning</button>
+                        <button class="btn shadow-1 radius-sm white-txt info">Info</button>
+                        <button class="btn shadow-1 radius-sm light">Light</button>
+                        <button class="btn shadow-1 radius-sm white-txt dark">Dark</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-pill shadow-1">exemplo</button>
+                        <button class="btn btn-pill shadow-1 white-txt primary">Primary</button>
+                        <button class="btn btn-pill shadow-1 white-txt success">Success</button>
+                        <button class="btn btn-pill shadow-1 white-txt danger">Danger</button>
+                        <button class="btn btn-pill shadow-1 white-txt warning">Warning</button>
+                        <button class="btn btn-pill shadow-1 white-txt info">Info</button>
+                        <button class="btn btn-pill shadow-1 light">Light</button>
+                        <button class="btn btn-pill shadow-1 white-txt dark">Dark</button>
+                    </div>
+                    <!-- end solid Shadow -->
+
+                    <!-- outline -->
+                    <div class="sm10 md8">
+                        <button class="btn btn-otl">exemplo</button>
+                        <button class="btn btn-otl primary-brd">Primary</button>
+                        <button class="btn btn-otl success-brd">success</button>
+                        <button class="btn btn-otl danger-brd">danger</button>
+                        <button class="btn btn-otl warning-brd">Warning</button>
+                        <button class="btn btn-otl info-brd">info</button>
+                        <button class="btn btn-otl light-brd">light</button>
+                        <button class="btn btn-otl dark-brd">dark</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-otl radius-sm">exemplo</button>
+                        <button class="btn btn-otl radius-sm primary-brd">Primary</button>
+                        <button class="btn btn-otl radius-sm success-brd">Success</button>
+                        <button class="btn btn-otl radius-sm danger-brd">Danger</button>
+                        <button class="btn btn-otl radius-sm warning-brd">Warning</button>
+                        <button class="btn btn-otl radius-sm info-brd">Info</button>
+                        <button class="btn btn-otl radius-sm light-brd">Light</button>
+                        <button class="btn btn-otl radius-sm dark-brd">Dark</button>
+                    </div>
+
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-pill btn-otl">exemplo</button>
+                        <button class="btn btn-pill btn-otl primary-brd">Primary</button>
+                        <button class="btn btn-pill btn-otl success-brd">Success</button>
+                        <button class="btn btn-pill btn-otl danger-brd">Danger</button>
+                        <button class="btn btn-pill btn-otl warning-brd">Warning</button>
+                        <button class="btn btn-pill btn-otl info-brd">Info</button>
+                        <button class="btn btn-pill btn-otl light-brd">Light</button>
+                        <button class="btn btn-pill btn-otl dark-brd">Dark</button>
+                    </div>
+                    <!-- end outline -->
+                </div>
+                <!-- End Main -->
+
+                <!-- Size -->
+                <div class="s10 wrap m-b-50">
+                    <!-- solid -->
+                    <div class="sm10 md8">
+                        <button class="btn btn-sm white-txt primary">Primary</button>
+                        <button class="btn btn-md white-txt success">Success</button>
+                        <button class="btn btn-lg white-txt danger">Danger</button>
+                        <button class="btn btn-lg shadow-1">Exemplo</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-sm radius-sm white-txt primary">Primary</button>
+                        <button class="btn btn-md radius-sm white-txt success">Success</button>
+                        <button class="btn btn-lg radius-sm white-txt danger">Danger</button>
+                        <button class="btn btn-lg radius-sm shadow-1">Exemplo</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-sm btn-pill white-txt primary">Primary</button>
+                        <button class="btn btn-md btn-pill white-txt success">Success</button>
+                        <button class="btn btn-lg btn-pill white-txt danger">Danger</button>
+                        <button class="btn btn-lg btn-pill shadow-1">Exemplo</button>
+                    </div>
+                    <!-- end solid -->
+
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-sm btn-otl primary-brd">Primary</button>
+                        <button class="btn btn-md btn-otl success-brd">Success</button>
+                        <button class="btn btn-lg btn-otl danger-brd">Danger</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn btn-sm radius-sm btn-otl primary-brd">Primary</button>
+                        <button class="btn btn-md radius-sm btn-otl success-brd">Success</button>
+                        <button class="btn btn-lg radius-sm btn-otl danger-brd">Danger</button>
+                    </div>
+
+                    <div class="sm10 md8 m-b-10">
+                        <button class="btn btn-sm btn-pill btn-otl primary-brd">Primary</button>
+                        <button class="btn btn-md btn-pill btn-otl success-brd">Success</button>
+                        <button class="btn btn-lg btn-pill btn-otl danger-brd">Danger</button>
+                    </div>
+
+                    <div class="sm10 md8">
+                        <button class="btn radius-sm white-txt primary"><i class="fas fa-circle-notch fa-spin"></i></button>
+                        <button class="btn radius-sm white-txt primary"><i class="fas fa-spinner fa-pulse"></i></button>
+                        <button class="btn radius-sm white-txt primary"><i class="fas fa-cog fa-spin"></i></button>
+                    </div>
+                </div>
+                <!-- End Size -->
+
+                <h3>Button Grup</h3>
+                <!-- Button Grup -->
+                <div class="s10 wrap">
+                    <div class="btn-group">
+                        <button class="btn white-txt primary">Exemplo</button>
+                        <button class="btn white-txt primary">Exemplo</button>
+                        <button class="btn white-txt primary">Exemplo</button>
+                    </div>
                 </div>
 
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                        <code><span>&lt;<span>span</span> <span>class</span>=<span>"uk-badge"</span>&gt;</span><span>&lt;/<span>span</span>&gt;</span></code>
-                    </pre>
+                <div class="s10 wrap">
+                    <div class="btn-group btn-group-radius">
+                        <button class="btn white-txt primary">Exemplo</button>
+                        <button class="btn white-txt primary">Exemplo</button>
+                        <button class="btn white-txt primary">Exemplo</button>
+                    </div>
                 </div>
+
+                <div class="s10 wrap">
+                    <div class="btn-group btn-group-radius">
+                        <button class="btn white-txt primary"><i class="fas fa-align-left"></i></button>
+                        <button class="btn white-txt primary"><i class="fas fa-align-center"></i></button>
+                        <button class="btn white-txt primary"><i class="fas fa-align-right"></i></button>
+                        <button class="btn white-txt primary"><i class="fas fa-align-justify"></i></button>
+                    </div>
+
+                    <div class="btn-group btn-group-radius">
+                        <button class="btn white-txt primary"><i class="fas fa-bold"></i></button>
+                        <button class="btn white-txt primary"><i class="fas fa-italic"></i></button>
+                        <button class="btn white-txt primary"><i class="fas fa-underline"></i></button>
+                    </div>
+                </div>
+                <!-- End Button Grup -->
+
+                <h3>Floating</h3>
+                <!-- Float -->
+                <div class="s10 wrap m-b-50">
+
+                    <!-- solid -->
+                    <div class="sm10 md8">
+                        <a href="javascript::" class="btn-float"><i class="fas fa-cloud"></i></a>
+                        <a href="javascript::" class="btn-float white-txt primary"><i class="fas fa-cloud"></i></a>
+                        <a href="javascript::" class="btn-float white-txt success"><i class="fas fa-cloud"></i></a>
+                        <a href="javascript::" class="btn-float white-txt danger"><i class="fas fa-cloud"></i></a>
+                        <a href="javascript::" class="btn-float white-txt warning"><i class="fas fa-cloud"></i></a>
+                        <a href="javascript::" class="btn-float white-txt info"> <i class="fas fa-chevron-up"></i> </a>
+                        <a href="javascript::" class="btn-float light"><i class="fas fa-cloud"></i></a>
+                        <a href="javascript::" class="btn-float white-txt dark"><i class="fas fa-cloud"></i></a>
+                    </div>
+                </div>
+                <!-- End Float -->
 
             </div>
         </section>
@@ -143,12 +329,15 @@
         <footer class="text-center">
             <span>
                 © 2020 Gleisson Neves <br>
-                Licença MIT. 
+                Licença MIT.
             </span>
         </footer>
     </main>
-    
+
     <!-- LIBS ICON JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+        integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

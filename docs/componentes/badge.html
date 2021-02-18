@@ -18,14 +18,13 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="../assets/css/main/main.css">
     <link rel="stylesheet" href="../assets/css/main/util.css">
-    <link rel="stylesheet" href="../assets/css/main/code.css">
 </head>
 
 <body>
     <main class="container">
         <!-- NAV -->
         <nav class="navbar navbar--fly ">
-            <div class="navbar_content between">
+            <div class="navbar_content between" style="padding: 20px;">
                 <i class="fas fa-bars" style="font-size: 25px;"></i>
 
                 <a href="javascript::" target="_blank" style="font-size:30px;">
@@ -105,289 +104,129 @@
                     Badge
                 </h1>
 
-                <h3 class="secundary-text m-b-50">
+                <h3 class="secundary-text m-b-20">
                     Documentação e exemplos de Badge, componente de rotulagem.
                 </h3>
-
-                <h2 class="secundary-text m-b-10">
-                    Caso de uso
-                </h2>
-                <p class="secundary-text m-b-50">
-                    Os badge podem ser usados ​​como parte de links ou botões para fornecer um contador.
-                </p>
-
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                    <code>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge"</span><span class="class"> style</span class="">=<span class="attr">"color:#333;"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                    </code>
-                    </pre>
-                </div>
-
-                <h2 class="secundary-text m-b-10">
-                    Preview
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <div class="sm10 md8">
-                        <span class="badge" style="color:#333;">Primary</span>
-                    </div>
-                </div>
             </div>
         </section>
         <!-- END COMPONENTE -->
 
-        <!-- COR  -->
+        <!-- variações  -->
         <section class=" p-l-50 p-r-50 column flex-c-m">
             <div class="sm10 md8 column center">
-                <h1 class="primary-text m-b-10">
-                    Variações de cor
-                </h1>
-
-                <h3 class="secundary-text m-b-50">
-                    Adicione qualquer uma das classes modificadoras mencionadas abaixo para alterar a aparência de um
-                    badge
-                </h3>
-
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                    <code>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-primary"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-link"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-success"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-danger"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-warning"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-info"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-glitter"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-dark"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                    </code>
-                    </pre>
-                </div>
-
-                <h2 class="secundary-text m-b-10">
-                    Preview
-                </h2>
-                <div class="s10 wrap m-b-50">
+               
+                <div class="s10 wrap m-b-20">
                     <div class="sm10 md8">
-                        <span class="badge badge-primary">Primary</span>
-                        <span class="badge badge-link">Link</span>
-                        <span class="badge badge-success">Success</span>
-                        <span class="badge badge-danger">Danger</span>
-                        <span class="badge badge-warning">Warning</span>
-                        <span class="badge badge-info">Info</span>
-                        <span class="badge badge-glitter">Glitter</span>
-                        <span class="badge badge-dark">Dark</span>
-                    </div>
-                </div>
-            </div>
-        </section>        
-        <!-- END COR -->
+                        <span class="badge badge-status">+9</span>
+                        <span class="badge badge-status white-txt primary">+9</span>
+                        <span class="badge badge-status white-txt success">+9</span>
+                        <span class="badge badge-status white-txt danger">+9</span>
+                        <span class="badge badge-status warning">+9</span>
+                        <span class="badge badge-status white-txt info">+9</span>
+                        <span class="badge badge-status light">+9</span>
+                        <span class="badge badge-status white-txt dark">+9</span>
 
-        <!-- VARIAÇÕES  -->
-        <section class=" p-l-50 p-r-50 column flex-c-m">
-            <div class="sm10 md8 column center">
-                <h1 class="primary-text m-b-10">
-                    Variações badge outiline
-                </h1>
-                
-                <h3 class="secundary-text m-b-50">
-                    Precisa de um badge, mas não tem as cores de fundo fortes que eles trazem? Substitua as classes modificadoras padrão pelas .badge-*-outline para remover cores de fundo de qualquer badge.
-                </h3>
+                        <br><br>
+                        
+                        <span class="badge badge-status badge-otl">+9</span>
+                        <span class="badge badge-status badge-otl primary-brd">+9</span>
+                        <span class="badge badge-status badge-otl success-brd">+9</span>
+                        <span class="badge badge-status badge-otl danger-brd">+9</span>
+                        <span class="badge badge-status badge-otl warning-brd">+9</span>
+                        <span class="badge badge-status badge-otl info-brd">+9</span>
+                        <span class="badge badge-status badge-otl light-brd">+9</span>
+                        <span class="badge badge-status badge-otl dark-brd">+9</span>
 
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                    <code>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-primary-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-link-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-success-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-danger-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-warning-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-info-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-glitter-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-dark-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                    </code>
-                    </pre>
-                </div>
+                        <br><br>
 
-                <h2 class="secundary-text m-b-10">
-                    Preview
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <div class="sm10 md8">
-                        <span class="badge badge-primary-outiline">Primary</span>
-                        <span class="badge badge-link-outiline">Link</span>
-                        <span class="badge badge-success-outiline">Success</span>
-                        <span class="badge badge-danger-outiline">Danger</span>
-                        <span class="badge badge-warning-outiline">Warning</span>
-                        <span class="badge badge-info-outiline">Info</span>
-                        <span class="badge badge-glitter-outiline">Glitter</span>
-                        <span class="badge badge-dark-outiline">Dark</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END VARIAÇÕES -->
+                        <span class="badge badge-status-sm"></span>
+                        <span class="badge badge-status-sm primary"></span>
+                        <span class="badge badge-status-sm success"></span>
+                        <span class="badge badge-status-sm danger"></span>
+                        <span class="badge badge-status-sm warning"></span>
+                        <span class="badge badge-status-sm info"></span>
+                        <span class="badge badge-status-sm light"></span>
+                        <span class="badge badge-status-sm dark"></span>
 
-        <!-- Status -->
-        <section class=" p-l-50 p-r-50 column flex-c-m">
-            <div class="sm10 md8 column center">
-                <h1 class="primary-text m-b-10">
-                    Badge Status
-                </h1>
+                        <br><br>
 
-                <h3 class="secundary-text m-b-50">
-                    Adicione badge-status como modificador para alterar a aparência de um
-                    badge padrão, como haviamos aprendido antes basta adicionar uma
-                    variação de cor para dá um cor ao badge.
-                </h3>
+                        <span class="badge">exemplo</span>
+                        <span class="badge white-txt primary">Primary</span>
+                        <span class="badge white-txt success">Success</span>
+                        <span class="badge white-txt danger">Danger</span>
+                        <span class="badge warning">Warning</span>
+                        <span class="badge white-txt info">Info</span>
+                        <span class="badge light">Light</span>
+                        <span class="badge white-txt dark">Dark</span>
 
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                    <code>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-primary badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-link badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-success badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-danger badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-warning badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-info badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-glitter badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-dark badge-status"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                    </code>
-                    </pre>
-                </div>
+                        <br><br>
 
-                <h2 class="secundary-text m-b-10">
-                    Preview
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <div class="sm10 md8">
-                        <span class="badge badge-status badge-primary"></span>
-                        <span class="badge badge-status badge-link"></span>
-                        <span class="badge badge-status badge-success"></span>
-                        <span class="badge badge-status badge-danger"></span>
-                        <span class="badge badge-status badge-warning"></span>
-                        <span class="badge badge-status badge-info"></span>
-                        <span class="badge badge-status badge-glitter"></span>
-                        <span class="badge badge-status badge-dark"></span>
+                        <span class="badge radius-sm">exemplo</span>
+                        <span class="badge radius-sm white-txt primary">Primary</span>
+                        <span class="badge radius-sm white-txt success">Success</span>
+                        <span class="badge radius-sm white-txt danger">Danger</span>
+                        <span class="badge radius-sm warning">Warning</span>
+                        <span class="badge radius-sm white-txt info">Info</span>
+                        <span class="badge radius-sm light">Light</span>
+                        <span class="badge radius-sm white-txt dark">Dark</span>
+                        
+                        <br><br>
+
+                        <span class="badge badge-pill">exemplo</span>
+                        <span class="badge badge-pill white-txt primary">Primary</span>
+                        <span class="badge badge-pill white-txt success">Success</span>
+                        <span class="badge badge-pill white-txt danger">Danger</span>
+                        <span class="badge badge-pill warning ">Warning</span>
+                        <span class="badge badge-pill white-txt info">Info</span>
+                        <span class="badge badge-pill light">Light</span>
+                        <span class="badge badge-pill white-txt dark">Dark</span>
+                        
+                        <br><br>
+                        
+                        <span class="badge badge-otl">exemplo</span>
+                        <span class="badge badge-otl primary-brd">Primary</span>
+                        <span class="badge badge-otl success-brd">success</span>
+                        <span class="badge badge-otl danger-brd">danger</span>
+                        <span class="badge badge-otl warning-brd">Warning</span>
+                        <span class="badge badge-otl info-brd">info</span>
+                        <span class="badge badge-otl light-brd">light</span>
+                        <span class="badge badge-otl dark-brd">dark</span>
+
+                        <br><br>
+
+                        <span class="badge badge-otl radius-sm">exemplo</span>
+                        <span class="badge badge-otl radius-sm primary-brd">Primary</span>
+                        <span class="badge badge-otl radius-sm success-brd">Success</span>
+                        <span class="badge badge-otl radius-sm danger-brd">Danger</span>
+                        <span class="badge badge-otl radius-sm warning-brd">Warning</span>
+                        <span class="badge badge-otl radius-sm info-brd">Info</span>
+                        <span class="badge badge-otl radius-sm light-brd">Light</span>
+                        <span class="badge badge-otl radius-sm dark-brd">Dark</span>
+                        
+                        <br><br>
+
+                        <span class="badge badge-pill badge-otl">exemplo</span>
+                        <span class="badge badge-pill badge-otl primary-brd">Primary</span>
+                        <span class="badge badge-pill badge-otl success-brd">Success</span>
+                        <span class="badge badge-pill badge-otl danger-brd">Danger</span>
+                        <span class="badge badge-pill badge-otl warning-brd">Warning</span>
+                        <span class="badge badge-pill badge-otl info-brd">Info</span>
+                        <span class="badge badge-pill badge-otl light-brd">Light</span>
+                        <span class="badge badge-pill badge-otl dark-brd">Dark</span>
+                        
+                        
+                        <br><br>
+                        
+                        <h2 class="secundary-text m-b-10">
+                            Outras
+                        </h2>
+                        
+                        Adicione cores conforme a tabelas de classes referente a cor
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Status -->
-
-        <!-- Status -->
-        <section class=" p-l-50 p-r-50 column flex-c-m">
-            <div class="sm10 md8 column center">
-                <h1 class="primary-text m-b-10">
-                    Variações de badge status
-                </h1>
-
-                <h2 class="secundary-text m-b-10">
-                    Outiline
-                </h2>
-
-                <h3 class="secundary-text m-b-50">
-                    Remova a cor de fundo de um badge status utilizando o badge-*-outiline. 
-                </h3>
-
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                    <code>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-primary-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-link-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-success-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-danger-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-warning-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-info-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-glitter-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-dark-outiline"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                    </code>
-                    </pre>
-                </div>
-
-                <h2 class="secundary-text m-b-10">
-                    Preview
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <div class="sm10 md8">
-                        <span class="badge badge-status badge-primary-outiline">1</span>
-                        <span class="badge badge-status badge-link-outiline">2</span>
-                        <span class="badge badge-status badge-info-outiline">3</span>
-                        <span class="badge badge-status badge-success-outiline">4</span>
-                        <span class="badge badge-status badge-danger-outiline">5</span>
-                        <span class="badge badge-status badge-warning-outiline">6</span>
-                        <span class="badge badge-status badge-glitter-outiline">7</span>
-                        <span class="badge badge-status badge-dark-outiline">+9</span>
-                    </div>
-                </div>
-
-
-                
-                <h2 class="secundary-text m-b-10">
-                    Small
-                </h2>
-
-                <h3 class="secundary-text m-b-50">
-                    Se preferir use badge status menores. Adicione .badge-status-sm para diminuir.
-                </h3>
-
-                <h2 class="secundary-text m-b-10">
-                    Código
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <pre class="s10">
-                    <code>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-primary-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-link-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-success-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-danger-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-warning-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-info-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-glitter-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                        <span>&lt;<span class="tag">span </span><span class="class">class</span class="">=<span class="attr-class">"badge badge-dark-outiline badge-status-sm"</span>&gt;</span><span>&lt;/<span class="tag">span</span>&gt;</span>
-                    </code>
-                    </pre>
-                </div>
-
-                <h2 class="secundary-text m-b-10">
-                    Preview
-                </h2>
-                <div class="s10 wrap m-b-50">
-                    <div class="sm10 md8">
-                        <span class="badge badge-status-sm badge-primary"></span>
-                        <span class="badge badge-status-sm badge-link"></span>
-                        <span class="badge badge-status-sm badge-info"></span>
-                        <span class="badge badge-status-sm badge-success"></span>
-                        <span class="badge badge-status-sm badge-danger"></span>
-                        <span class="badge badge-status-sm badge-warning"></span>
-                        <span class="badge badge-status-sm badge-glitter"></span>
-                        <span class="badge badge-status-sm badge-dark"></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Status -->
-
-        <footer class="text-center">
-            <span>
-                © 2020 Gleisson Neves <br>
-                Licença MIT.
-            </span>
-        </footer>
+        <!-- end variações -->
     </main>
 
     <!-- LIBS ICON JS -->
