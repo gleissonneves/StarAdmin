@@ -27,4 +27,4 @@ Da uma olhada na aba Releases pra acompanhar as alterações feitas no projeto.
 
 
 ## License/Licença do Projeto #
-[MIT License](https://github.com/gdk46/StarAdmin/blob/main/LICENSE) © [Gleisson Neves](https://github.com/gdk46)
+[MIT License](https://github.com/gdk46/StarAdmin/blob/main/LICENSE) © [Gleisson Neves](https://github.com/gleissonneves)
